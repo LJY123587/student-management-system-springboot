@@ -74,7 +74,11 @@ public class StudentController {
 		existingStudent.setEmail(student.getEmail());
 		existingStudent.setGender(student.getGender());
 		existingStudent.setGrade(student.getGrade());
+<<<<<<< HEAD
 
+=======
+		
+>>>>>>> feature/grade-management
 		// save updated student object
 		studentService.updateStudent(existingStudent);
 		return "redirect:/students";
